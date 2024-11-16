@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <style>
+        :root{
+            --principal-color : #FF6801;
+            --secondary-color : #FEAD6B;
+            --principal-bg-color : #E6F2FF;
+            --secondary-bg-color : #3D2847;
+            --complementary-color : #7F5098;
+            --complementary-color : #69417D;
+            --complementary-color : #D3D3D3;
+        }
+        *{
+          /* outline: 1px solid red;   */
+          font-family: 'Poppins', sans-serif;
+          font-style: normal;
+          color : var(--secondary-bg-color);
+        }
+        #hero{
+            /* background-color: var(--principal-bg-color); */
+        }
+    </style>
+</head>
+<body class="max-w-5xl flex m-auto flex-col justify-center">
+    <header class="border-b border-gray-200 px-4 justify-between items-center w-ful h-20 flex">
+        <h1 class="font-bold text-xl">Malakisi <span class="text-[#FF6801] text-4xl">.</span></h1>
+        <nav class="hidden lg:flex gap-4">
+            <a href="" class="transition-all hover:text-[#FF6801]">Accueil</a>
+            <a href="" class="transition-all hover:text-[#FF6801]">A propos</a>
+            <a href="" class="transition-all hover:text-[#FF6801]">Nos programmes</a>
+            <a href="" class="transition-all hover:text-[#FF6801]">Les apprenants</a>
+            <a href="" class="transition-all hover:text-[#FF6801]">Contactez-nous</a>
+        </nav>
+        <button class=" text-white transition-all hover:bg-[#3D2847]  rounded-sm px-3 py-1 bg-[#FF6801] font-bold">inscrivez-vous</button>
+    </header>
+    <main>
+        <section class="h-[auto] flex-col gap-y-4 lg:flex-row p-4 rounded-md mt-4 bg-slate-100 w-full flex" id="hero">
+            <div class="lg:text-left lg:items-start flex-1 justify-center flex flex-col gap-4 items-center text-center">
+                <h1 class="text-5xl font-bold">Transformez votre carrière avec <span class="text-[#FF6801]">Malakisi</span></h1>
+                <p class="">Un programme intensif de 3 mois en développement de logiciels modernes</p>
+                <button class="text-white transition-all hover:bg-[#3D2847] rounded-sm px-3 py-1 bg-[#FF6801] font-bold w-fit">Inscrivez-vous dès maintenant</button>
+            </div>
+            <div class="flex flex-1">
+                <img class="w-full" src="téléchargement.png" alt="hero_section_image">
+            </div>
+        </section>
+        <section class="p-4 w-full my-8" id="studies-program">
+            <div>
+                <h2 class="text-center text-3xl font-bold">
+                    Notre programme d'études
+                </h2>
+                <p class="my-4 text-center">Notre programme est structuré en plusieurs modules couvrant différents stacks technologiques.</p>
+            </div>
+            <div class="lg:flex-row gap-2 flex flex-col justify-between">
+
+                <div class="gap-2 p-4 flex-col border border-[#7F5098] rounded-md flex flex-1 h-21 bg-[#3D2847]">
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                    width="24" height="24" viewBox="0 0 24 24" 
+                    fill="none" stroke="white" stroke-width="2" 
+                    stroke-linecap="round" stroke-linejoin="round" 
+                    class="rounded-[0.1875rem] p-1 bg-[#69417D] lucide lucide-globe">
+                        <circle cx="12" cy="12" r="10"/>
+                        <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+                        <path d="M2 12h20"/>
+                    </svg>
+                    <h3 class="text-white">Développement Web</h3>
+                </div>
+                <div class="gap-2 p-4 flex-col border border-[#7F5098] rounded-md flex flex-1 h-21 bg-[#3D2847]">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" 
+                    height="24" viewBox="0 0 24 24" fill="none" 
+                    stroke="white" stroke-width="2" 
+                    stroke-linecap="round" stroke-linejoin="round" 
+                    class="rounded-[0.1875rem] p-1 bg-[#69417D] lucide lucide-tablet-smartphone">
+                        <rect width="10" height="14" x="3" y="8" rx="2"/>
+                        <path d="M5 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v16a2 
+                        2 0 0 1-2 2h-2.4"/>
+                        <path d="M8 18h.01"/>
+                    </svg>
+                    <h3 class="text-white">Développement Mobile</h3>
+                </div>
+                <div class="gap-2 p-4 flex-col border border-[#7F5098] rounded-md flex flex-1 h-21 bg-[#3D2847]">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" 
+                    height="24" viewBox="0 0 24 24" fill="none" 
+                    stroke="white" stroke-width="2" 
+                    stroke-linecap="round" stroke-linejoin="round" 
+                    class="rounded-[0.1875rem] p-1 bg-[#69417D] lucide lucide-brain-circuit">
+                        <path d="M12 5a3 3 0 
+                        1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 
+                        6.588A4 4 0 1 0 12 18Z"/>
+                        <path d="M9 13a4.5 4.5 0 0 0 3-4"/>
+                        <path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"/>
+                        <path d="M3.477 10.896a4 4 0 0 1 .585-.396"/>
+                        <path d="M6 18a4 4 0 0 1-1.967-.516"/>
+                        <path d="M12 13h4"/>
+                        <path d="M12 18h6a2 2 0 0 1 2 2v1"/>
+                        <path d="M12 8h8"/>
+                        <path d="M16 8V5a2 2 0 0 1 2-2"/>
+                        <circle cx="16" cy="13" r=".5"/>
+                        <circle cx="18" cy="3" r=".5"/>
+                        <circle cx="20" cy="21" r=".5"/>
+                        <circle cx="20" cy="8" r=".5"/>
+                    </svg>
+                    <h3 class="text-white">Intellignece Artificielle</h3>
+                </div>
+                <div class="gap-2 p-4 flex-col border border-[#7F5098] rounded-md flex flex-1 h-21 bg-[#3D2847]">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" 
+                    height="24" viewBox="0 0 24 24" fill="none" 
+                    stroke="white" stroke-width="2" 
+                    stroke-linecap="round" stroke-linejoin="round" 
+                    class="rounded-[0.1875rem] p-1 bg-[#69417D] lucide lucide-cloud">
+                        <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 
+                        4.5 0 1 1 0 9Z"/>
+                    </svg>
+                    <h3 class="text-white">Cloud Computing</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="gap-4 p-4 flex lg:flex-row flex-col" id="about-program">
+            <div class="rounded-md flex-1">
+                <img class="border border-[#7F5098] h-full rounded-md" src="file-svYnLE7uIVQviY3YpsPOULbP.png" alt="IA, développement web, développement mobile et clound computing">
+            </div>
+            <div class="border border-[#E6F2FF] p-4 bg-slate-100 rounded-md flex-1">
+                <h2 class="text-3xl font-bold mb-4 ">Pourquoi Choisir Malakisi ?</h2>
+                <p><span class="font-bold text-[#FF6801]">Malakisi</span> est un programme annuel, composé de sessions intensives de 3 mois, dédié à l'apprentissage des technologies modernes de développement logiciel. Que vous soyez
+                    intéressé par le <span class="font-bold">développement web</span>, <span class="font-bold">mobile</span>, <span class="font-bold">l'intelligence artificielle </span> ou <span class="font-bold">le cloud</span>, notre programme est conçu pour vous préparer aux défis du monde technologique.
+                   </p>
+            </div>
+        </section>
+
+        <section class="p-4 my-8" id="contact">
+            <div>
+                <h2 class="text-3xl font-bold">Contactez-nous</h2>
+                <p class="my-4">Pour toute question ou information complémentaire, n'hésitez pas à nous contacter.</p>
+            </div>
+            <div class="flex flex-col gap-4  lg:flex-row rounded-md ">
+                <form class="p-4 bg-[#3D2847] flex-1 flex flex-col gap-5 rounded-md" action="">
+                    <div class="flex flex-col">
+                        <label for="nom" class="font-bold text-white">Votre nom :</label>
+                        <input class=" placeholder:font-semibold border bg-gray-100 border-[#69417D] rounded-sm p-2 " id="nom" name="nom" type="text" placeholder="Kajirifo">
+                    </div>
+                    <div class="flex flex-col">
+                        <label class="font-bold text-white" for="email">Votre Adresse mail :</label>
+                        <input class="placeholder:font-semibold border  bg-gray-100 border-[#69417D] rounded-sm p-2" id="email" name="email" type="email" placeholder="bienvenukajirifoluc@gmail.com">
+                    </div>
+                    <div class="flex flex-col">
+                        <label class="font-bold text-white" for="numero">Votre adress numéro</label>
+                        <input class="placeholder:font-semibold border  bg-gray-100 border-[#69417D] rounded-sm p-2 " id="numero" name="numero" type="text" placeholder="+243971067970">
+                    </div>
+                    <div class="flex flex-col">
+                        <label class="font-bold text-white" for="message">Votre message</label>
+                        <textarea class="placeholder:font-semibold border  bg-gray-100 border-[#69417D] resize-none rounded-sm p-2  " id="message" placeholder="Votre texte ici "></textarea>
+                    </div>
+                    <button class="flex justify-center gap-2 rounded-sm text-white font-bold p-2 bg-[#FF6801]">Envoyer maintenant <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send-horizontal"><path d="M3.714 3.048a.498.498 0 0 0-.683.627l2.843 7.627a2 2 0 0 1 0 1.396l-2.842 7.627a.498.498 0 0 0 .682.627l18-8.5a.5.5 0 0 0 0-.904z"/><path d="M6 12h16"/></svg>
+                    </button>
+                </form>
+                <div class=" rounded-md flex-1" >
+                    <iframe class="w-full"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.0160324298217!2d28.873730474072083!3d-2.5016011381602468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19c2970074f8213d%3A0xaf0cab33a1d32a27!2sDRCMIND%20OFFICE!5e0!3m2!1sfr!2scd!4v1731749966369!5m2!1sfr!2scd" 
+                    width="auto" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-slate-100 border border-t-slate-300 text-center p-4 mt-8">
+        <h2><span class="font-bold text-[#FF6801]">Malakisi .</span> tous droits reservés</h2>
+    </footer>
+</body>
+</html>

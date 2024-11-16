@@ -1,0 +1,57 @@
+malakisi content
+
+CONTENU LANDING PAGE MALAKISI
+
+2. Hero Section (Section principale)
+Titre principal : "Transformez votre carrière avec Malakisi"
+Sous-titre : "Un programme intensif de 3 mois en développement de logiciels modernes"
+Call to Action (CTA) : "Inscrivez-vous dès maintenant"
+Image de fond : Une image dynamique montrant des développeurs au travail, des étudiants en classe, ou une illustration moderne liée à la technologie.
+Vidéo promotionnelle : Une courte vidéo présentant le programme et les réussites des anciens élèves.
+3. About the Program (À propos du programme)
+Titre : "Pourquoi choisir Malakisi ?"
+Texte :
+"Malakisi est un programme annuel, composé de sessions intensives de 3 mois, dédié à l'apprentissage des technologies modernes de développement logiciel. Que vous soyez intéressé par le développement web, mobile, l'intelligence artificielle ou le cloud, notre programme est conçu pour vous préparer aux défis du monde technologique."
+Images : Photos des sessions en cours, des étudiants travaillant en groupe, etc.
+4. Curriculum (Programme d'études)
+Titre : "Notre programme d'études"
+Texte :
+"Notre programme est structuré en plusieurs modules couvrant différents stacks technologiques."
+Sections :
+Développement Web
+Développement Mobile
+Intelligence Artificielle
+Cloud Computing
+Médias : Icônes représentant chaque technologie (HTML/CSS, JavaScript, React, Node.js, Python, TensorFlow, AWS, etc.)
+
+6. Instructors (Formateurs)
+Titre : "Rencontrez nos formateurs"
+Texte :
+"Nos formateurs sont des experts reconnus dans leur domaine avec des années d'expérience."
+Profils des formateurs :
+Nom
+Photo
+Brève biographie
+Liens vers les profils LinkedIn ou portfolios
+Médias : Photos professionnelles des formateurs.
+7. Testimonials (Témoignages)
+Titre : "Ce que disent nos anciens élèves"
+Texte :
+"Découvrez les témoignages de ceux qui ont suivi le programme Malakisi."
+Témoignages :
+Citations de quelques anciens élèves avec leurs photos et postes actuels.
+Vidéo : Vidéo de témoignages d'anciens élèves.
+9. Contact (Contact)
+Titre : "Contactez-nous"
+Texte :
+"Pour toute question ou information complémentaire, n'hésitez pas à nous contacter."
+Formulaire de contact : Nom, Email, Message
+Informations de contact : Adresse email, téléphone, adresse physique.
+Carte : Google Maps intégrée pour la localisation.
+10. Footer (Pied de page)
+Sections :
+Liens de navigation (Accueil, Programme, Avantages, Formateurs, Témoignages, Inscription, Contact)
+Réseaux sociaux (liens vers les pages Facebook, LinkedIn, Twitter, Instagram)
+Informations légales
+Politique de confidentialité
+Conditions d'utilisation
